@@ -9,8 +9,7 @@ public class FileAnalyzer {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             FileAnalyzerView view = new FileAnalyzerView();
-            FileLoader fileLoader = new CSVFileLoader();
-            FileAnalyzerController controller = new FileAnalyzerController(view, fileLoader);
+            FileAnalyzerController controller = new FileAnalyzerController(view);
             view.setVisible(true);
         });
     }
