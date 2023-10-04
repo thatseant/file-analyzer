@@ -1,4 +1,6 @@
-# This File Analyzer Application is written in Java and built with the MVC (Model-View-Controller) architecture. Users to load, sort, filter and analyze CSV files.
+# CSV File Analyzer
+
+## This File Analyzer Application is written in Java and built with the MVC (Model-View-Controller) architecture. Users to load, sort, filter and analyze CSV files.
 
 ## Features:
 
